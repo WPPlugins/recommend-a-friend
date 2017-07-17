@@ -1,0 +1,198 @@
+/* iframe style */
+
+/*
+html{color:#000}
+body,
+div,
+dl,dt,dd,
+ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+margin:0;padding:0;
+}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+*/
+
+#raf_global a,
+#raf_global a:focus {
+	outline: 0 none;color: #fff;
+}
+
+body {
+	margin: 0;
+}
+#raf_global {
+	font-family: Verdana, helvetica, sans-serif;
+	width: 100%;
+	background: #fff;
+	float: left;
+	
+}
+#raf_global h1 {
+	font-weight: 400;
+	font-size: 22px;
+	border-bottom: 3px solid #eee;
+	padding-bottom: 4px;
+	margin: 10px;
+	color: #363636;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global fieldset {
+	border: 0 none;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	margin: 10px;
+}
+#raf_global legend {
+	padding: 5px 0 0; 
+	color: #363636;
+	font-weight: 400;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global label {
+	display: block;
+	color: #363636;
+	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global textarea,
+#raf_global input.field,
+#raf_global .thTextbox {
+	background: #f9f9f9;
+	border:2px solid #e8e8e8;
+	padding: 5px;
+	display: block;
+	width: 99%;
+	line-height: 14px;
+	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
+	margin-bottom: 2px;
+}
+#raf_global textarea:focus,
+#raf_global input.field:focus,
+#raf_global .thTextbox:focus {
+  border-color:#cdcccc;
+}
+#raf_global textarea{
+  resize: vertical;
+}
+.thTextbox {
+	margin-left: 10px;
+}
+#raf_global select.thSelect {
+	border: 1px solid #E8E8E8;
+    float: left;
+    margin: 5px 0 5px 11px;
+    width: 200px;
+}
+.submit-btn,
+.thButton {
+	background: url("../images/arrows-1.png") no-repeat scroll 8px -192px #B41A1A;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	line-height: 12px;
+	border: 0 none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 700;
+	float: left;
+	display: block;
+	margin-top: 10px;
+}
+.thButton {margin-left: 146px;}
+.submit-btn:hover,
+.thButton:hover {background-color: #de3232;}
+
+#raf_global ul {
+	list-style: none;
+	margin: 25px auto 0;
+	padding-left: 0;
+	text-align: center;
+}
+#raf_global ul li {
+	line-height: 50px;
+	display: inline;
+}
+#raf-facebook {
+	background: url(../images/share-fb-btn.png) no-repeat top center;
+	padding: 45px 10px 0;
+	color: #414232;
+	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf-twitter {
+	background: url(../images/share-twt-btn.png) no-repeat top center;
+	padding: 45px 10px 0;
+	color: #414232;
+	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
+}
+/* Import contact table */
+.thTable {
+	width: 500px;
+	margin: 0 auto 10px;
+	font-family: Verdana, helvetica, sans-serif;
+}
+.thTable th, .thTable td, .thTable caption {padding: 3px 5px; text-align: right; font-size: 11px; color: #333;}
+.thTable tbody tr:nth-child(2n) td, tbody tr.even td {background: none;}
+.thTableHeader {
+	color: #6d7e8a;
+}
+.thTableHeader td {
+	text-align: left;
+	font-size: 12px; font-weight: 700;
+}
+.thTableDesc,
+.thTableEvenRow {
+	background: #fff;
+}
+.thTableDesc {
+	background: #ddd;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 2px solid #608EB5;
+}
+.thTableOddRow {
+	background: #eee;
+}
+.thTable td.thTableinput {
+	width: 120px;
+	text-align: center;
+}
+.thTableinput #toggle_all {
+	float: right;
+}
+/* Widget style */
+.raf_widget {
+	position: relative;
+}
+.raf_widget h3.share-to-a-friend {
+	position: absolute;
+	color: #fff;
+	top: 15px;
+	left: 60px;
+	font-size: 12px;
+	text-shadow: 1px 1px #608eb5;
+}
+
+
+#raf_link {
+	text-indent: -9999px;
+}
+#raf_link img {
+	display: block;
+}

@@ -1,0 +1,10 @@
+#recaptcha-params {
+	margin: 10px 0;
+}
+
+#recaptcha-params label {
+	margin: 10px 0;
+}
+#recaptcha-params {
+	display: none;
+}

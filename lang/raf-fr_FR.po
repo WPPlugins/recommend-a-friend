@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Recommend a friend - 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-18 15:22+0100\n"
+"PO-Revision-Date: 2011-12-18 15:23+0100\n"
+"Last-Translator: Benjamin Niess <benjamin.niess@gmail.com>\n"
+"Language-Team: BeAPI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class.admin.php:26
+msgid "Options for Recommend to a friend plugin"
+msgstr "Options du plugin Recommend to a friend"
+
+#: ../inc/class.admin.php:26
+#: ../inc/class.admin.php:59
+#: ../inc/functions.tpl.php:20
+#: ../inc/functions.tpl.php:28
+msgid "Recommend to a friend"
+msgstr "Recommend to a friend"
+
+#: ../inc/class.admin.php:50
+msgid "Options updated!"
+msgstr "Options mises à jour !"
+
+#: ../inc/class.admin.php:64
+msgid "Open inviter login"
+msgstr "Login Open inviter"
+
+#: ../inc/class.admin.php:64
+msgid "Get an Open Inviter Login"
+msgstr "Obtenir un login Open inviter"
+
+#: ../inc/class.admin.php:68
+msgid "Open inviter private key"
+msgstr "Clé privée Open inviter"
+
+#: ../inc/class.admin.php:72
+msgid "Email shipper ( ex: contact@mysite.com)"
+msgstr "Expéditeur de l'email (ex: contact@monsite.com)"
+
+#: ../inc/class.admin.php:76
+msgid "Enabled features"
+msgstr "Fonctionnalités activées"
+
+#: ../inc/class.admin.php:78
+msgid "Insert emails mannualy"
+msgstr "Inserstion manuelle d'adresses emails"
+
+#: ../inc/class.admin.php:79
+msgid "Share on social networks"
+msgstr "Partage sur les réseaux sociaux"
+
+#: ../inc/class.admin.php:80
+msgid "Use email providers"
+msgstr "Utiliser les fournisseurs d'emails"
+
+#: ../inc/class.admin.php:83
+msgid "Auto add RAF button after the_content"
+msgstr "Ajout automatique du bouton RAF après the_content"
+
+#: ../inc/class.admin.php:84
+msgid "Check to auto add RAF after the_content"
+msgstr "Cocher pour ajouter automatiquement le bouton RAF après the_content"
+
+#: ../inc/class.admin.php:87
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: ../inc/class.admin.php:91
+msgid "Titles color"
+msgstr "Couleur des titres"
+
+#: ../inc/class.admin.php:95
+msgid "Buttons background color"
+msgstr "Couleur de fond des boutons"
+
+#: ../inc/class.admin.php:99
+msgid "Buttons background color hover"
+msgstr "Couleur de fond des bouttons (hover)"
+
+#: ../inc/class.admin.php:103
+msgid "Buttons text color"
+msgstr "Couleur du texte des boutons"
+
+#: ../inc/class.admin.php:111
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: ../inc/class.raf-widget.php:9
+msgid "Add a recommend to a friend widget"
+msgstr "Ajoute le widget Recommend to a friend"
+
+#: ../inc/class.raf-widget.php:17
+msgid "Share this page"
+msgstr "Partager cette page"
+
+#: ../inc/class.raf-widget.php:59
+msgid "Title"
+msgstr "Titre"
+
+#: ../inc/class.raf-widget.php:63
+msgid "Display type"
+msgstr "Type d'affichage"
+
+#: ../inc/class.raf-widget.php:64
+msgid "Default"
+msgstr "Par défaut"
+
+#: ../inc/class.raf-widget.php:65
+msgid "Custom image"
+msgstr "Image personnalisée"
+
+#: ../inc/class.raf-widget.php:66
+msgid "Custom text"
+msgstr "Texte personnalisé"
+
+#: ../inc/class.raf-widget.php:70
+msgid "Image URL"
+msgstr "URL de l'image"
+
+#: ../inc/class.raf-widget.php:74
+msgid "Link text"
+msgstr "Libélé du lien"
+
+#: ../inc/raf_form.php:36
+msgid "You are invited on "
+msgstr "Vous êtes invité sur"
+
+#: ../inc/raf_form.php:37
+msgid " would like to invite you on "
+msgstr " souhaite vous inviter sur"
+
+#: ../inc/raf_form.php:73
+msgid "You need to enter valid email addresses"
+msgstr "Vous devez entrer des adresses email valides"
+
+#: ../inc/raf_form.php:90
+msgid "You need to specify your name"
+msgstr "Vous devez spécifier votre nom"
+
+#: ../inc/raf_form.php:102
+#: ../inc/raf_form.php:303
+msgid "Attached message: "
+msgstr "Message attaché : "
+
+#: ../inc/raf_form.php:133
+msgid ""
+"Hello,\n"
+"I'd like to recommend you the following page...\n"
+msgstr ""
+"Bonjour, \n"
+"\n"
+"Je souhaite vous recommander cette page...\n"
+"\n"
+
+#: ../inc/raf_form.php:193
+msgid "Recommend this page to a friend !"
+msgstr "Recommander cette page à un ami !"
+
+#: ../inc/raf_form.php:197
+#: ../inc/raf_form.php:329
+#: ../inc/raf_form.php:335
+msgid "Your message has been sent"
+msgstr "Votre message a bien été envoyé"
+
+#: ../inc/raf_form.php:201
+msgid "Customize your message"
+msgstr "Personnalisez votre message"
+
+#: ../inc/raf_form.php:207
+msgid "Please insert here the email addresses separate by commas"
+msgstr "Insérez ici des adresses email séparées par des virgules"
+
+#: ../inc/raf_form.php:213
+msgid "Your name"
+msgstr "Votre nom"
+
+#: ../inc/raf_form.php:218
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../inc/raf_form.php:224
+msgid "You can recommend using: "
+msgstr "Récupérez vos contacts :"
+
+#: ../inc/raf_form.php:263
+msgid "You need to enter an email"
+msgstr "Vous devez spécifier un email"
+
+#: ../inc/raf_form.php:265
+msgid "You need to enter a password"
+msgstr "Vous devez spécifier un mot de passe"
+
+#: ../inc/raf_form.php:267
+msgid "You need to specify an email provider"
+msgstr "Vous devez spécifier un fournisseur de messagerie"
+
+#: ../inc/raf_form.php:275
+msgid "Unable to etablish a connection. Please check your login/password."
+msgstr "Impossible d'établir la connexion. Veuillez vérifier vos identifiants."
+
+#: ../inc/raf_form.php:278
+msgid "Unable to load contacts"
+msgstr "Chargement des contacts impossible"
+
+#: ../inc/raf_form.php:288
+msgid "Please choose an email provider"
+msgstr "Veuillez choisir un fournisseur de messagerie"
+
+#: ../inc/raf_form.php:294
+msgid "Inviter information missing !"
+msgstr "Informations manquantes"
+
+#: ../inc/raf_form.php:295
+msgid "No active session !"
+msgstr "Aucune session active"
+
+#: ../inc/raf_form.php:296
+msgid "Message missing !"
+msgstr "Message manquant"
+
+#: ../inc/raf_form.php:314
+msgid "Please select one or more contacts"
+msgstr "Veuillez sélectionner un ou plusieurs contacts"
+
+#: ../inc/raf_form.php:333
+msgid "An error occured during the mailing. Please try later."
+msgstr "Une erreur s'est produite durant l'envoi. Merci d'essayer plus tard."
+
+#: ../inc/raf_form.php:349
+msgid "Retrieve your contact from an email provider"
+msgstr "Retrouvez vos contacts à partir de votre messagerie"
+
+#: ../inc/raf_form.php:356
+#: ../inc/raf_form.php:382
+msgid "Email"
+msgstr "Email"
+
+#: ../inc/raf_form.php:357
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../inc/raf_form.php:358
+msgid "Email provider"
+msgstr "Messagerie"
+
+#: ../inc/raf_form.php:366
+msgid "Import contacts"
+msgstr "Importer des contacts"
+
+#: ../inc/raf_form.php:371
+msgid "Message"
+msgstr "Message"
+
+#: ../inc/raf_form.php:372
+#: ../inc/raf_form.php:392
+msgid "Send invites"
+msgstr "Envoyer les invitations"
+
+#: ../inc/raf_form.php:380
+msgid "No contacts found"
+msgstr "Aucun contact trouvé"
+
+#: ../inc/raf_form.php:382
+msgid "Invite ?"
+msgstr "Inviter ?"
+
+#: ../inc/raf_form.php:382
+msgid "Name"
+msgstr "Nom"
+
+#~ msgid "Recommend this page to a friend"
+#~ msgstr "Recommander cette page à un ami"
+
+#~ msgid " would like to invite you"
+#~ msgstr " souhaite vous inviter"
